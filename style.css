@@ -113,7 +113,12 @@ h5 {
         width: 100%;
     }
 
-    .senior-body, .media-body {
+    .senior-body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .media-body {
         margin-left: 10px;
         margin-right: 10px;
     }
