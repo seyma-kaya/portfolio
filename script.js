@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
         changePage("mediaMarkt");
     }
 
-    document.getElementById("CV").onclick = function () {
-        changePage("CV");
-    }
-
     function changePage(id) {
         var url = id + ".html";
         window.location.href = url;
